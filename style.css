@@ -1,0 +1,68 @@
+/* CSS files add styling rules to your content */ 
+
+body {
+    font-family: Ubuntu;
+    margin: 2em;
+    background-image: url('https://cdn.glitch.com/858b118c-58c9-49b7-ae09-39181a62b3f1%2Fjeopardy%20logo.png?v=1594382383132');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  h1 {
+    font-family: Ubuntu;
+    color: white;
+    font-size: 42px;
+  }
+  
+  h2 {
+    margin-top: 2em; 
+    color: black
+  }
+  
+  button {
+    border: none;
+    font-family: Ubuntu;
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+  button:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .question {
+    display: flex;
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-around;
+  }
+    
+  .answer-choice img {
+    height: 10em;
+    width: auto;
+  }
+  
+  .answer-choice {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #atla {
+    width: 150px;
+  }
+  
+  #tabitha {
+    width: 150px;
+  }
+  
+  #coffee {
+    width: 140px;
+  }
+  
+  #result {
+    color: white;
+  }
+  
+  
